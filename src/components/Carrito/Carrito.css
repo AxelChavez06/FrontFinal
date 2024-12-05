@@ -1,0 +1,64 @@
+.carrito-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .producto-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .producto-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .producto-img {
+    max-width: 80px;
+    margin-right: 10px;
+  }
+  
+  .producto-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cantidad-input {
+    width: 50px;
+    margin-right: 10px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+  
+  .eliminar-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .eliminar-btn:hover {
+    background-color: #d32f2f;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  

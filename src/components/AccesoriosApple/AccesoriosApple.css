@@ -1,0 +1,82 @@
+.productos-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .productos-container h1 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .productos-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+    justify-items: center; 
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .producto-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 100%;
+    max-width: 250px; 
+  }
+  
+  .producto-card img {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 8px;
+  }
+  
+  .producto-card h3 {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .producto-precio {
+    font-size: 18px;
+    color: #333;
+    margin-top: 5px;
+    font-weight: bold;
+  }
+
+.producto-btn {
+    background-color: #48b1a3;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  .producto-btn:hover {
+    background-color: #333;
+  }
+
+  .producto-btn.add-to-cart {
+    background-color: #f4a261;
+    margin-top: 10px;
+  }
+  
+  .producto-btn.add-to-cart:hover {
+    background-color: #e76f51;
+  }
+  
+  
+  .producto-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  

@@ -1,0 +1,145 @@
+.header {
+    font-family: Arial, sans-serif;
+    width: 100%;
+  }
+  
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 2px solid #e0e0e0;
+  }
+  
+  .header-logo img {
+    height: 50px;
+  }
+  
+  .header-search {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-search input {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .header-search button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .header-search img {
+    height: 20px;
+  }
+
+  .header-contact div {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+  }
+  
+  .header-contact img {
+    height: 20px;
+    margin-right: 8px;
+  }
+
+  .header-nav {
+    background-color: #48b1a3;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  .header-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-nav li {
+    margin-right: 20px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .header-nav li:hover {
+    text-decoration: underline;
+  }
+
+  .header-session {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .header-login-link {
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 20px; 
+  }
+  
+  .header-login-link:hover {
+    text-decoration: underline;
+  }
+  
+  .header-cart-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .header-cart-link img {
+    height: 25px;
+    margin-right: 8px;
+  }
+  
+  .header-cart-link span {
+    font-size: 16px;
+  }
+
+.header-search {
+    position: relative;
+  }
+  
+  .search-results {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+  }
+  
+  .search-result-item {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .search-result-item:hover {
+    background-color: #f4f4f4;
+  }
+  
+  .search-result-img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
